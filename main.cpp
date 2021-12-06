@@ -1,4 +1,7 @@
-// TODO: COmments
+// Aidan Houck
+// CIS 1202 502
+// November 18, 2021
+// Create and test a new "character" function using try/catch blocks
 
 #include <iostream>
 
