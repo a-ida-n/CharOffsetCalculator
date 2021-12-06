@@ -9,6 +9,7 @@ int main()
 
 	try
 	{
+		// Should return 'b'
 		std::cout << character('a', 1) << '\n';
 	}
 	catch (std::string errorMessage)
@@ -18,6 +19,7 @@ int main()
 
 	try
 	{
+		// Should return an exception
 		std::cout << character('a', -1) << '\n';
 	}
 	catch (std::string errorMessage)
@@ -27,6 +29,7 @@ int main()
 
 	try
 	{
+		// Should return 'Y'
 		std::cout << character('Z', -1) << '\n';
 	}
 	catch (std::string errorMessage)
@@ -36,6 +39,7 @@ int main()
 
 	try
 	{
+		// Should return an exception
 		std::cout << character('?', 5) << '\n';
 	}
 	catch (std::string errorMessage)
@@ -45,6 +49,7 @@ int main()
 
 	try
 	{
+		// Should return an exception
 		std::cout << character('A', 32) << '\n';
 	}
 	catch (std::string errorMessage)
